@@ -1,0 +1,5 @@
+# Fix Kali GPG Keys
+
+When running Kali VMs, the GPG keys expire after a while which breaks apt-get. It was a real pain trying to figure out how to fix this issue without downloading a new ISO. 
+
+Please keep in mind that it is safer to download the latest version of the Kali ISO where all patches are up to date, but if you don't care about the machine running the ISO (i.e. a VM) then use this tool to just update the gpg keys. 
