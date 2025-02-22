@@ -1,8 +1,8 @@
 # run using your shell of choice
 #
 echo "Getting new GPG key"
-
-wget https://archive.kali.org/archive-key.asc > archive-key.asc 
+rm archive-key.asc temp.gpg
+wget https://archive.kali.org/archive-key.asc 
  
 gpg --no-default-keyring --keyring ./temp.gpg --import ./archive-key.asc
 
